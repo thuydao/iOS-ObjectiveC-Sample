@@ -13,22 +13,14 @@
 		ECE264101D40BFED0009FAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE2640E1D40BFED0009FAC6 /* Main.storyboard */; };
 		ECE264121D40BFED0009FAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE264111D40BFED0009FAC6 /* Assets.xcassets */; };
 		ECE264151D40BFED0009FAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE264131D40BFED0009FAC6 /* LaunchScreen.storyboard */; };
-		ECE2642A1D40C0500009FAC6 /* UIImageUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE264271D40C0410009FAC6 /* UIImageUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ECE264261D40C0410009FAC6 /* PBXContainerItemProxy */ = {
+		ECE2642E1D40C3D90009FAC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ECE263E01D40BE2E0009FAC6;
-			remoteInfo = UIImageUtils;
-		};
-		ECE264281D40C0480009FAC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ECE263DF1D40BE2E0009FAC6;
 			remoteInfo = UIImageUtils;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,7 +36,7 @@
 		ECE264111D40BFED0009FAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE264141D40BFED0009FAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE264161D40BFED0009FAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UIImageUtils.xcodeproj; sourceTree = "<group>"; };
+		ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIImageUtils.xcodeproj; path = ../UIImageUtils.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE2642A1D40C0500009FAC6 /* UIImageUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +91,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ECE264231D40C0410009FAC6 /* Products */ = {
+		ECE2642B1D40C3D90009FAC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECE264271D40C0410009FAC6 /* UIImageUtils.framework */,
+				ECE2642F1D40C3D90009FAC6 /* UIImageUtils.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +113,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				ECE264291D40C0480009FAC6 /* PBXTargetDependency */,
 			);
 			name = ImgateTest;
 			productName = ImgateTest;
@@ -156,7 +146,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = ECE264231D40C0410009FAC6 /* Products */;
+					ProductGroup = ECE2642B1D40C3D90009FAC6 /* Products */;
 					ProjectRef = ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */;
 				},
 			);
@@ -168,11 +158,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		ECE264271D40C0410009FAC6 /* UIImageUtils.framework */ = {
+		ECE2642F1D40C3D90009FAC6 /* UIImageUtils.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UIImageUtils.framework;
-			remoteRef = ECE264261D40C0410009FAC6 /* PBXContainerItemProxy */;
+			remoteRef = ECE2642E1D40C3D90009FAC6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -202,14 +192,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ECE264291D40C0480009FAC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIImageUtils;
-			targetProxy = ECE264281D40C0480009FAC6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ECE2640E1D40BFED0009FAC6 /* Main.storyboard */ = {
