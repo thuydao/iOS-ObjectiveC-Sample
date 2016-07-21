@@ -13,6 +13,7 @@
 		ECE264101D40BFED0009FAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE2640E1D40BFED0009FAC6 /* Main.storyboard */; };
 		ECE264121D40BFED0009FAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE264111D40BFED0009FAC6 /* Assets.xcassets */; };
 		ECE264151D40BFED0009FAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE264131D40BFED0009FAC6 /* LaunchScreen.storyboard */; };
+		ECE264341D40C4400009FAC6 /* UIImageUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE2642F1D40C3D90009FAC6 /* UIImageUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +22,13 @@
 			containerPortal = ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ECE263E01D40BE2E0009FAC6;
+			remoteInfo = UIImageUtils;
+		};
+		ECE264321D40C43D0009FAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE264221D40C0410009FAC6 /* UIImageUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE263DF1D40BE2E0009FAC6;
 			remoteInfo = UIImageUtils;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE264341D40C4400009FAC6 /* UIImageUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +122,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				ECE264331D40C43D0009FAC6 /* PBXTargetDependency */,
 			);
 			name = ImgateTest;
 			productName = ImgateTest;
@@ -192,6 +202,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE264331D40C43D0009FAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIImageUtils;
+			targetProxy = ECE264321D40C43D0009FAC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ECE2640E1D40BFED0009FAC6 /* Main.storyboard */ = {
@@ -338,6 +356,7 @@
 				ECE2641B1D40BFED0009FAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,7 +4,4 @@
    <FileRef
       location = "group:ImgateTest/ImgateTest.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:UIImageUtils/UIImageUtils.xcodeproj">
-   </FileRef>
 </Workspace>
